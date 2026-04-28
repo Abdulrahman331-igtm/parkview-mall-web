@@ -74,13 +74,8 @@ export default function StoresPage() {
                 transition={{ duration: 0.3 }}
                 key={store.id}
                 onClick={() => {
-                  // If a Google Business link exists, open it. 
-                  // Otherwise, fall back to the local store page.
-                  if (store.googleMaps) {
-                    window.open(store.googleMaps, "_blank", "noopener,noreferrer");
-                  } else {
-                    router.push(`/stores/${store.slug}`);
-                  }
+                  
+                  router.push(`/stores/${store.slug}`);
                 }}
                 className="group cursor-pointer flex flex-col bg-white/5 border border-white/10 rounded-2xl overflow-hidden hover:bg-white/10 transition-colors duration-300"
               >
