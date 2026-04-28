@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #050505;
+  color: white;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Smooth luxury feel */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
