@@ -90,12 +90,7 @@ export default function StoresPage() {
                   />
                   <div className="absolute inset-0 bg-black/30 group-hover:bg-transparent transition-colors duration-500" />
                   
-                  {/* External Indicator Tag */}
-                  {store.googleMaps && (
-                    <div className="absolute top-4 right-4 bg-black/60 backdrop-blur-md px-3 py-1 rounded-full text-[10px] uppercase tracking-widest border border-white/10 opacity-0 group-hover:opacity-100 transition-opacity">
-                      View on Maps
-                    </div>
-                  )}
+                  
                 </div>
 
                 {/* Card Content */}
