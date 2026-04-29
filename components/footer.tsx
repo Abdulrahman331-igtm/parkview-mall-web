@@ -48,7 +48,6 @@ export default function Footer() {
         <div>
           <h3 className="text-xs font-bold uppercase tracking-[0.2em] mb-6 text-gray-500">Explore</h3>
           <ul className="space-y-4 text-gray-400 text-sm">
-            <li><Link href="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
             <li><Link href="/about" className="hover:text-white transition-colors">About Parkview</Link></li>
           </ul>
