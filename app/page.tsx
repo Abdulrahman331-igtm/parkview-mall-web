@@ -10,23 +10,24 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white relative z-0">
 
-      {/* 1. HERO SECTION (Like the "Step Into Adventure" banner) */}
+      {/* 1. HERO SECTION */}
       <section className="relative h-[80vh] flex items-center justify-center text-center px-6 overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/fashion.png')] bg-cover bg-center" />
         <div className="absolute inset-0 bg-black/60"></div>
 
         <div className="relative z-10 max-w-4xl mt-20">
           <motion.h1
-            initial={{ opacity: 0, y: 60 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="text-5xl md:text-8xl font-bold leading-tight tracking-tight uppercase"
+            initial={{ opacity: 0, scale: 0.9, y: 40 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 1.5, ease: "easeOut" }}
+            className="text-4xl md:text-6xl font-bold leading-tight tracking-widest uppercase drop-shadow-2xl"
           >
             Welcome to <br /> PARKVIEW mall
           </motion.h1>
         </div>
       </section>
 
-      {/* 2. THE INTRO BANNER (Like the red "Let The Adventure Begin..." block) */}
+      {/* 2. THE INTRO BANNER */}
       <section className="bg-gradient-to-r from-red-900/40 via-black to-red-900/40 py-16 text-center border-b border-white/10">
         <div className="max-w-4xl mx-auto px-6">
           <p className="text-sm uppercase tracking-[0.3em] text-gray-400 mb-4">Curated. Refined. Exclusive.</p>
@@ -38,11 +39,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 3. THE 4 CIRCULAR CATEGORIES (Now with Floating Animation!) */}
+      {/* 3. THE 4 CIRCULAR CATEGORIES */}
       <section className="py-20 px-6 bg-black">
         <div className="max-w-5xl mx-auto flex flex-wrap justify-center gap-12 md:gap-24">
           
-          {/* Shopping - Floats up and down over 4 seconds */}
+          {/* Shopping */}
           <div className="flex flex-col items-center group cursor-pointer" onClick={() => router.push("/stores")}>
             <motion.div 
               animate={{ y: [0, -15, 0] }} 
@@ -55,7 +56,7 @@ export default function Home() {
             <span className="text-gray-600 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
           </div>
 
-          {/* Events - Floats slightly faster (3.5s) so they don't look robotic */}
+          {/* Events */}
           <div className="flex flex-col items-center group cursor-pointer" onClick={() => router.push("/gallery")}>
             <motion.div 
               animate={{ y: [0, -15, 0] }} 
@@ -68,7 +69,7 @@ export default function Home() {
             <span className="text-gray-600 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
           </div>
 
-          {/* Dining - Floats over 4.5s */}
+          {/* Dining */}
           <div className="flex flex-col items-center group cursor-pointer" onClick={() => router.push("/stores")}>
             <motion.div 
               animate={{ y: [0, -15, 0] }} 
@@ -81,7 +82,7 @@ export default function Home() {
             <span className="text-gray-600 mt-2 opacity-0 group-hover:opacity-100 transition-opacity">→</span>
           </div>
 
-          {/* Living - Floats over 3.8s */}
+          {/* Living */}
           <div className="flex flex-col items-center group cursor-pointer" onClick={() => router.push("/contact")}>
             <motion.div 
               animate={{ y: [0, -15, 0] }} 
@@ -97,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 4. ABOUT US / DISCOVER SECTION (Images now float too!) */}
+      {/* 4. ABOUT US / DISCOVER SECTION */}
       <section className="py-24 px-6 bg-[#0a0a0a] border-t border-white/5">
         <div className="max-w-6xl mx-auto">
           
@@ -114,7 +115,6 @@ export default function Home() {
               <p className="text-gray-400 leading-relaxed">
                 It's always a fun time for the whole family at Parkview Mall, your complete shopping, dining, and entertainment destination. Delight in top-notch entertainment facilities and a safe environment for everyone.
               </p>
-              {/* Floating Image Container */}
               <motion.div 
                 animate={{ y: [0, -20, 0] }} 
                 transition={{ duration: 6, repeat: Infinity, ease: "easeInOut" }}
@@ -126,7 +126,6 @@ export default function Home() {
 
             {/* Corporates */}
             <div className="space-y-6">
-              {/* Floating Image Container (moves opposite direction) */}
               <motion.div 
                 animate={{ y: [0, 20, 0] }} 
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -147,7 +146,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 5. FULL WIDTH PROMO BANNER (Like "Step Into Style") */}
+      {/* 5. FULL WIDTH PROMO BANNER */}
       <section className="relative h-[60vh] flex items-center justify-end px-6 overflow-hidden border-y border-white/10">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1441984904996-e0b6ba687e04')] bg-cover bg-center opacity-50" />
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-transparent"></div>
