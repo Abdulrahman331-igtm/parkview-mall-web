@@ -246,7 +246,7 @@ export const stores = [
     image: "/images/Rish.png",
     location: "2nd Floor",
     hours: "Mon - Sat: 9:00 AM - 7:00 PM",
-    phone: "+254 722 922 241"
+    phone: "+254 742 591 277"
   },
   {
     id: 18,
