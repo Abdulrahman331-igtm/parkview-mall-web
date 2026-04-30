@@ -245,7 +245,7 @@ export const stores = [
     slug: "rish-barbeque",
     image: "/images/Rish.png",
     location: "2nd Floor",
-    hours: "Mon - Sat: 9:00 AM - 7:00 PM",
+    hours: "Daily: 11:30 AM -10:30 PM",
     phone: "+254 742 591 277"
   },
   {
