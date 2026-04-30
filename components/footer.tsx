@@ -48,7 +48,6 @@ export default function Footer() {
         <div>
           <h3 className="text-xs font-bold uppercase tracking-[0.2em] mb-6 text-gray-500">Explore</h3>
           <ul className="space-y-4 text-gray-400 text-sm">
-            <li><Link href="/gallery" className="hover:text-white transition-colors">Gallery</Link></li>
             <li><Link href="/contact" className="hover:text-white transition-colors">Contact Us</Link></li>
             <li><Link href="/about" className="hover:text-white transition-colors">About Parkview</Link></li>
           </ul>
@@ -76,7 +75,7 @@ export default function Footer() {
 
       {/* COPYRIGHT BAR */}
       <div className="max-w-6xl mx-auto pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-gray-600">
-        <p>© 2026 Parkview Mall. All rights reserved.</p>
+        <p>© 2026 Parkview Mall. All rights reserved.powered by Abdirahman.</p>
         <p className="hover:text-gray-400 transition-colors cursor-default">Designed for Excellence</p>
       </div>
     </footer>
