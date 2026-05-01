@@ -313,7 +313,7 @@ export const stores = [
     slug: "brew-and-vibe",
     image: "/images/brew.png",
     location: "2nd Floor",
-    hours: "Mon - Sun: 11:00 AM - Late",
+    hours: "Permanently closed",
     phone: "+254 741 831 221"
   }
 ];
