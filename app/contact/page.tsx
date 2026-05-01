@@ -139,7 +139,7 @@ export default function ContactPage() {
                       name="firstName"
                       required
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all"
-                      placeholder="John"
+                      placeholder="Abdirahman"
                     />
                   </div>
                   <div className="space-y-2">
@@ -149,7 +149,7 @@ export default function ContactPage() {
                       name="lastName"
                       required
                       className="w-full bg-white/5 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-white/30 focus:bg-white/10 transition-all"
-                      placeholder="Doe"
+                      placeholder="Shafi"
                     />
                   </div>
                 </div>
