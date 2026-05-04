@@ -88,7 +88,7 @@ export const stores = [
     category: "Services",
     slug: "wellnest",
     image: "/images/wellnest.png",
-    location: "3rd Floor, Wellness Clinic",
+    location: "5th Floor, Wellness Clinic",
     hours: "Mon - Fri: 8:00 AM - 5:00 PM",
     phone: "+254 700 931 596"
   },
