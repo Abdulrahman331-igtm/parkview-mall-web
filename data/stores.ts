@@ -305,15 +305,4 @@ export const stores = [
   },
 
   // 🎭 ENTERTAINMENT
-  {
-    id: 11,
-    name: "Brew & Vibe",
-    desc: "Restaurant & Entertainment",
-    category: "Entertainment", 
-    slug: "brew-and-vibe",
-    image: "/images/brew.png",
-    location: "2nd Floor",
-    hours: "Permanently closed",
-    phone: "+254 741 831 221"
-  }
-];
+  
