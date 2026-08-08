@@ -178,7 +178,7 @@ export const stores = [
     image: "/images/safaricom.png",
     location: "Ground Floor",
     hours: "Mon - Sat: 9:00 AM - 7:00 PM",
-    phone: "+254 727 169 575"
+    phone: "+254 722 000 000"
   },
   {
     id: 25,
