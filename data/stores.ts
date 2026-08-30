@@ -101,7 +101,7 @@ export const stores = [
     image: "/images/joycutz.png",
     location: "2nd Floor, Park view mall",
     hours: "Mon - Sun: 8:00 AM - 8:00 PM",
-    phone: "+254 720 156 323"
+    phone: "+254 143 666 317"
   },
   {
     id: 9,
@@ -305,5 +305,16 @@ export const stores = [
   },
 
   // 🎭 ENTERTAINMENT
-  
+
+  {
+    id: 23,
+    name: "HD'S CAFE",
+    desc: "Coffee place & Pool table Games",
+    category: "Dining & Entertainment",
+    slug: "hd's-cafe",
+    image: "/images/HDScafe.png",
+    location: "2nd Floor",
+    hours: "Mon - Sat: 9:00 AM - 7:00 PM",
+    phone: "+254 143 666 317"
+  }
 ];
