@@ -310,7 +310,7 @@ export const stores = [
     id: 23,
     name: "HD'S CAFE",
     desc: "Coffee place & Pool table Games",
-    category: "Dining & Entertainment",
+    category: "Entertainment",
     slug: "hd's-cafe",
     image: "/images/HDScafe.png",
     location: "2nd Floor",
