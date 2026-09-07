@@ -316,11 +316,11 @@ export const stores = [
     location: "2nd Floor",
     hours: "Mon - Sat: 9:00 AM - 7:00 PM",
     phone: "+254 143 666 317"
-  }
+  },
 
 
    {
-    id: 23,
+    id: 24,
     name: "ARABICA COFFEE HOUSE",
     desc: "Coffee place",
     category: "Dining",
