@@ -324,7 +324,7 @@ export const stores = [
     name: "ARABICA COFFEE HOUSE",
     desc: "Coffee place",
     category: "Dining",
-    slug: "Arabica-coffee-house",
+    slug: "arabica-coffee-house",
     image: "/images/ArabicaCoffeeHouse.png",
     location: "Ground Floor",
     hours: "Mon - Sat: 9:00 AM - 11:00 PM",
