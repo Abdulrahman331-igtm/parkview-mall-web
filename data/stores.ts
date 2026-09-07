@@ -319,7 +319,7 @@ export const stores = [
   },
 
 
-   {
+  {
     id: 24,
     name: "ARABICA COFFEE HOUSE",
     desc: "Coffee place",
