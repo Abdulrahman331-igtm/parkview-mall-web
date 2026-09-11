@@ -59,7 +59,7 @@ export default function Footer() {
           <ul className="space-y-5 text-gray-400 text-sm">
             <li className="flex items-start gap-3">
               <MapPin className="w-4 h-4 shrink-0 mt-0.5 text-white/40" />
-              <span>2nd parklands avenue, Nairobi, Kenya</span>
+              <span>2nd Parklands Avenue, Nairobi, Kenya</span>
             </li>
             <li className="flex items-center gap-3">
               <Phone className="w-4 h-4 shrink-0 text-white/40" />
