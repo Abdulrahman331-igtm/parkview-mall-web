@@ -76,7 +76,15 @@ export default function Footer() {
       {/* COPYRIGHT BAR */}
       <div className="max-w-6xl mx-auto pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] uppercase tracking-widest text-gray-600">
         <p>
-          © 2026 Parkview Mall. All rights reserved. <span className="text-amber-500 font-bold ml-1">Powered by Abdirahman.</span>
+          © 2026 Parkview Mall. All rights reserved.{" "}
+          <a 
+            href="https://www.linkedin.com/in/abdirahman-shafi-497650332" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-amber-500 font-bold ml-1 hover:text-amber-400 hover:underline transition-colors inline-block"
+          >
+            Powered by Abdirahman.
+          </a>
         </p>
         <p className="hover:text-gray-400 transition-colors cursor-default">Designed for Excellence</p>
       </div>
